@@ -1,35 +1,28 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500&display=swap");
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: normal;
 }
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-newsreader: Newsreader;
 
-* {
-  box-sizing: border-box;
-}
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  /* Colors */
+  --color-white: #fff;
+  --color-whitesmoke: #fafaf5;
+  --color-gainsboro: #e6e6e6;
+  --color-dimgray: #6d6d6d;
+  --color-darkolivegreen: #426b1f;
+  --color-black: #000;
+  --color-silver: #c2c2c2;
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
-
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* Border radiuses */
+  --br-5xl: 24px;
+  --br-xl: 20px;
 }

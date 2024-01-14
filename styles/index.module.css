@@ -1,0 +1,220 @@
+.default {
+    position: relative;
+    line-height: 130%;
+    font-weight: 600;
+  }
+  .aZChip,
+  .defaultChip,
+  .listChip {
+    position: absolute;
+    bottom: 33px;
+    border-radius: var(--br-xl);
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .defaultChip {
+    right: 275px;
+    background-color: var(--color-darkolivegreen);
+    width: 88px;
+    color: var(--color-white);
+  }
+  .aZChip,
+  .listChip {
+    right: 205px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    width: 62px;
+  }
+  .listChip {
+    right: 96px;
+    width: 101px;
+  }
+  .fresh {
+    font-weight: 500;
+  }
+  .august212023 {
+    font-weight: 300;
+  }
+  .freshAugustContainer,
+  .produce {
+    position: absolute;
+    text-align: left;
+  }
+  .freshAugustContainer {
+    bottom: 33px;
+    left: 347px;
+    font-size: var(--font-size-xl);
+    line-height: 130%;
+    white-space: pre-wrap;
+  }
+  .produce {
+    bottom: 16px;
+    left: 96px;
+    font-size: 64px;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    font-family: var(--font-newsreader);
+  }
+  .divider {
+    position: absolute;
+    width: calc(100% - 190px);
+    right: 95px;
+    bottom: -1px;
+    left: 95px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-top: 2px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    height: 2px;
+  }
+  .pageHeading {
+    position: absolute;
+    width: 100%;
+    top: 112px;
+    right: 0;
+    left: 0;
+    background-color: var(--color-white);
+    height: 149px;
+    overflow: hidden;
+  }
+  .worldPeas {
+    position: absolute;
+    top: 41px;
+    left: 96px;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    line-height: 100%;
+    font-weight: 500;
+    font-family: var(--font-newsreader);
+    color: var(--color-darkolivegreen);
+    text-align: left;
+  }
+  .myProfile,
+  .newstand,
+  .shop,
+  .whoWeAre {
+    position: absolute;
+    top: 45.5px;
+    right: 657px;
+    line-height: 130%;
+  }
+  .myProfile,
+  .newstand,
+  .whoWeAre {
+    right: 532px;
+  }
+  .myProfile,
+  .whoWeAre {
+    right: 394px;
+  }
+  .myProfile {
+    right: 270px;
+  }
+  .basket3 {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 130%;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .cartButton,
+  .navigation {
+    position: absolute;
+    overflow: hidden;
+  }
+  .cartButton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-darkolivegreen);
+    top: 32px;
+    right: 96px;
+    border-radius: 8px;
+    width: 126px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .navigation {
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 112px;
+  }
+  .heirloomTomato {
+    bottom: 98px;
+    line-height: 130%;
+    font-weight: 600;
+  }
+  .grownInSan,
+  .heirloomTomato,
+  .lb {
+    position: absolute;
+    left: 24px;
+  }
+  .lb {
+    bottom: 68px;
+    line-height: 130%;
+    font-weight: 600;
+    color: var(--color-darkolivegreen);
+  }
+  .grownInSan {
+    bottom: 28px;
+    font-size: var(--font-size-base);
+    line-height: 150%;
+    color: var(--color-dimgray);
+  }
+  .edONeilAvvdzlhdowaUnsplashIcon {
+    position: absolute;
+    height: calc(100% - 148px);
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 148px;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .ginger,
+  .tomato {
+    position: absolute;
+    width: calc(100% - 1045px);
+    top: 301px;
+    right: 949px;
+    left: 96px;
+    border-radius: var(--br-5xl);
+    background-color: var(--color-whitesmoke);
+    border: 2px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    height: 444px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+  }
+  .ginger {
+    right: 522px;
+    left: 523px;
+  }
+  .productPage {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
